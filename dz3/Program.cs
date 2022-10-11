@@ -16,17 +16,17 @@ Console.WriteLine(otvet);
 
 
 
-//Задача 23: Напишите программу, которая принимает на вход число (N) и выдаёт таблицу квадратов чисел от 1 до N.
+//Задача 23: Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
 
-/*double kvadr (int z){
-     double res = Math.Pow(z,2);
+/*double kyb (int z){
+     double res = Math.Pow(z,3);
     return res;
 }
  
 double n = int.Parse(Console.ReadLine());
 int x=1;
 while (x<=n) {
-    double otvet = kvadr (x);
+    double otvet = kyb (x);
     x++;
 Console.WriteLine(otvet);
 }
@@ -42,4 +42,15 @@ else{
 }  
 */
 
-//Создать программу, которая из массива удаляется элемент с позиции, которую введет пользователь.
+
+// Дополнительно. Создание массива из двух массивов. В итоговом массиве должны быть элементы первого и второго массива.[1,2,3] [4,5,6] -> [1,2,3,4,5,6]. Честно подсмотрела на Metanit
+/*
+string[] first = {"1","2","3","4","5"};
+string[] second = {"6","7","8","9","10"};
+
+var result = first.Concat(second);
+ 
+foreach (string s in result)
+    Console.WriteLine(s);
+*/
+
