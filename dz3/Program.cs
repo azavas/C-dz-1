@@ -31,11 +31,15 @@ while (x<=n) {
 Console.WriteLine(otvet);
 }
 */
+//Задача 19. Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
 
-/int[] num = new int[5];
+/*string str = Console.ReadLine ();
+if (str[0]==str[4]&&str[1]==str[3]){
+    Console.WriteLine("Да");
+}
+else{
+    Console.WriteLine("Нет");
+}  
+*/
 
-if (
-    //while (i<num.Length){
-    Console.Write($"Введите {i} число массива: ");  
-    num[i] = int.Parse(Console.ReadLine());
-    i++;
+//Создать программу, которая из массива удаляется элемент с позиции, которую введет пользователь.
