@@ -74,12 +74,12 @@ double a =double.Parse(Console.ReadLine());
 
 double power( double a, int n ){
     if(n == 1) return a; 
-    //else  (n==0) return 1;
-    for(int i=2; i==n; i++){
-        double 
+    else  return a*power(a,n-1);
+           
     }
 
-}
+Console.WriteLine(power(a,n));
+
 
 
 
