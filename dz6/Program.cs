@@ -66,6 +66,23 @@ for(int i =0; i<matr.GetLength(0); i++){
 }
  */
 
+//Дано действительное положительное число a и целое неотрицательное число n. 
+//Вычислите an не используя циклы, возведение в степень через ** и функцию math.pow(), а используя рекуррентное соотношение an=a⋅an-1.
+int n =int.Parse(Console.ReadLine());
+double a =double.Parse(Console.ReadLine());
 
 
+double power( double a, int n ){
+    if(n == 1) return a; 
+    //else  (n==0) return 1;
+    for(int i=2; i==n; i++){
+        double 
+    }
+
+}
+
+
+
+
+    
 
